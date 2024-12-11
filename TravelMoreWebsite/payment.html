@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="./logopay/download.png"type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Details</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <div class="container">
+        <h2>Enter Payment Details</h2>
+    <form id="paymentForm">
+        <div class="form-group">
+            <label for="cardNumber">Card Number:</label>
+            <input type="text" id="cardNumber" name="cardNumber" required>
+        </div>
+        <div class="form-group">
+            <label for="expiryDate">Expiry Date:</label>
+            <input type="month" id="expiryDate" name="expiryDate" required>
+        </div>
+        <div class="form-group">
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required>
+        </div>
+        <button type="submit">Pay Now</button>
+    </form>
+
+    <div class="payment-logos">
+        <img src="./logopay/mastercard-logo.jpeg" alt="MasterCard"> 
+        <img src="./logopay/visa-logo.jpeg" alt="Visa"> 
+        <img src="./logopay/rupay-logo.jpeg" alt="RuPay"> 
+    </div>
+</div>
